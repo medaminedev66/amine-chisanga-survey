@@ -9,27 +9,28 @@
 </head>
 
 <body>
-    <div>
-        <h1 id="title"> freeCodeCamp Survey Form </h1>
-        <p id="description"> Thank you for taking the time to help us improve the platform </p>
-    </div>
-    <form id="survey-form" action="submit">
-        <div class="group">
-            <label id="name-label" for="name">Name</label>
-            <input type="text" name="text" id="name" placeholder="Enter your name" class="box" required>
+    <div class="content">
+        <div>
+            <h1 id="title"> freeCodeCamp Survey Form </h1>
+            <p id="description"> Thank you for taking the time to help us improve the platform </p>
         </div>
-        <div class="group">
-            <label id="email-label" for="name">Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter your email" class="box" required>
-        </div>
+        <form id="survey-form" action="submit">
+            <div class="group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="text" id="name" placeholder="Enter your name" class="box" required>
+            </div>
+            <div class="group">
+                <label id="email-label" for="name">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" class="box" required>
+            </div>
 
-        <div class="group">
-            <label id="age-label" for="name">Age</label>
-            <input type="number" name="age" id="number" placeholder="Enter your age" min="18" max="65" class="box">
-        </div>
-        <div class="group">
-            <p> Which option best describes your current role? </p>
-            <select name="dropdown" id="dropdown">
+            <div class="group">
+                <label id="age-label" for="name">Age</label>
+                <input type="number" name="age" id="number" placeholder="Enter your age" min="18" max="65" class="box">
+            </div>
+            <div class="group">
+                <p> Which option best describes your current role? </p>
+                <select name="dropdown" id="dropdown">
                 <option disabled selected value="">Select current rule</option>
                 <option value="Student">Student</option>
                 <option value="Full-job">Full job</option>
@@ -37,64 +38,65 @@
                 <option value="">prefer not to say</option>
                 <option value="other">other</option>
             </select>
-        </div>
-        <div class="group">
-            <p> Would you recommend freeCodeCamp to a friend?</p>
+            </div>
+            <div class="group">
+                <p> Would you recommend freeCodeCamp to a friend?</p>
 
-            <label for="Definetly">
+                <label for="Definetly">
             <input type="radio" name="recomendation" value="Definetly" class="input-radio" checked> Definetly
             </label>
 
-            <label for="Maybe">
+                <label for="Maybe">
                 <input type="radio" name="recomendation" value="Maybe" class="input-radio">Maybe </label>
 
-            <label for="notsure"> <input type="radio" name="recomendation" value="notsure" class="input-radio">Not sure</label>
-        </div>
-        <div class="group">
-            <p> What is your favorite feature of freeCodeCamp? </p>
-            <select name="dropdown" id="dropdown">
+                <label for="notsure"> <input type="radio" name="recomendation" value="notsure" class="input-radio">Not sure</label>
+            </div>
+            <div class="group">
+                <p> What is your favorite feature of freeCodeCamp? </p>
+                <select name="dropdown" id="dropdown">
                 <option disabled selected value="">Select current rule</option>
                 <option value="challenges">Challenges</option>
                 <option value="projects">Projects</option>
                 <option value="community">community</option>
                 <option value="open-source">open source</option>
             </select>
-        </div>
-        <div class="group">
-            <p>What would you like to see improved? (Check all that apply) </p>
-            <label for="front-end">
+            </div>
+            <div class="group">
+                <p>What would you like to see improved? (Check all that apply) </p>
+                <label for="front-end">
             <input type="checkbox" name="front-end" class="input-check"> Front-end</label>
-            <label for="front-end">
+                <label for="front-end">
                 <input type="checkbox" name="back-end projects" class="input-check"> back-end projects</label>
-            <label for="data-visualization">
+                <label for="data-visualization">
                     <input type="checkbox" name="data-visualization" class="input-check"> data visualization</label>
-            <label for="challenges">
+                <label for="challenges">
                 <input type="checkbox" name="challenges" class="input-check"> challenges</label>
-            <label for="open-source-community">
+                <label for="open-source-community">
                             <input type="checkbox" name="open-source-community" class="input-check"> open source community</label>
-            <label for="front-end">
+                <label for="front-end">
                                 <input type="checkbox" name="front-end" class="input-check"> gitter source community</label>
-            <label for="front-end">
+                <label for="front-end">
                                     <input type="checkbox" name="front-end" class="input-check"> videos</label>
-            <label for="front-end">
+                <label for="front-end">
                                         <input type="checkbox" name="front-end" class="input-check"> city meet-ups </label>
-            <label for="front-end">
+                <label for="front-end">
                                             <input type="checkbox" name="front-end" class="input-check"> wiki</label>
-            <label for="front-end">
+                <label for="front-end">
                                                 <input type="checkbox" name="front-end" class="input-check"> forum </label>
-            <label for="front-end">
+                <label for="front-end">
                                                     <input type="checkbox" name="front-end" class="input-check"> additional courses</label>
 
-        </div>
-        <div class="group">
-            <p>Any comments or suggestions?</p>
-            <textarea name="comment" id="comment" placeholder="Enter your comments here..."></textarea>
-        </div>
-        <div class="group">
-            <button type="submit" id="submit">Submit</button>
-        </div>
+            </div>
+            <div class="group">
+                <p>Any comments or suggestions?</p>
+                <textarea name="comment" id="comment" placeholder="Enter your comments here..."></textarea>
+            </div>
+            <div class="group">
+                <button type="submit" id="submit">Submit</button>
+            </div>
 
-    </form>
+        </form>
+    </div>
 </body>
 
 </html>
