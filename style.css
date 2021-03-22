@@ -43,11 +43,15 @@ form {
     border-radius: 2%;
 }
 
+#dropdown {
+    font-size: 18px;
+}
 .input-radio {
     margin-left: 5px;
     margin-right: 5px;
     height: 18px;
     width: 18px;
+    
 }
 
 label {
@@ -74,4 +78,9 @@ textarea {
     background: #37af65;
     border: none;
     color: white;
+}
+
+option{
+    font-size: 18px;
+    font-weight: 400;
 }

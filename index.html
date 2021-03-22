@@ -31,7 +31,7 @@
         <div class="group">
             <p> Which option best describes your current role? </p>
             <select name="dropdown" id="dropdown" class="box">
-                <option disabled value="">Select current rule</option>
+                <option disabled selected value="">Select current rule</option>
                 <option value="Student">Student</option>
                 <option value="Full-job">Full job</option>
                 <option value="full-time-learner">full time learner</option>
@@ -41,25 +41,24 @@
         </div>
         <div class="group">
             <p> Would you recommend freeCodeCamp to a friend?</p>
-
-            <label for="Definetly">
-                <input type="radio" class="input-radio" checked>Definetly
+            
+            <label for="Definetly" >
+            <input type="radio" name="recomendation" value="Definetly" class="input-radio" checked> Definetly
             </label>
 
-            <label for="Maybe">
-                <input type="radio" class="input-radio">Maybe </label>
+            <label for="Maybe" >
+                <input type="radio" name="recomendation" value="Maybe" class="input-radio">Maybe </label>
 
-            <label for="notsure"> <input type="radio" class="input-radio">Not sure</label>
+            <label for="notsure"> <input type="radio" name="recomendation" value="notsure" class="input-radio">Not sure</label>
         </div>
         <div class="group">
             <p> What is your favorite feature of freeCodeCamp? </p>
             <select name="dropdown" id="dropdown" class="box">
-                <option disabled value="">Select current rule</option>
-                <option value="Student">C</option>
-                <option value="Full-job">Full job</option>
-                <option value="full-time-learner">full time learner</option>
-                <option value="">prefer not to say</option>
-                <option value="other">other</option>
+                <option disabled selected value="">Select current rule</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">community</option>
+                <option value="open-source">open source</option>
             </select>
         </div>
         <div class="group">
