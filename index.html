@@ -17,20 +17,20 @@
     <form id="survey-form" action="submit">
         <div class="group">
             <label id="name-label" for="name">Name</label>
-            <input type="text" name="text" id="name" placeholder="Enter your name" required>
+            <input type="text" name="text" id="name" placeholder="Enter your name" class="box" required>
         </div>
         <div class="group">
             <label id="email-label" for="name">Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            <input type="email" name="email" id="email" placeholder="Enter your email" class="box" required>
         </div>
 
         <div class="group">
             <label id="age-label" for="name">Age</label>
-            <input type="number" name="age" id="number" placeholder="Enter your age" min="18" max="65">
+            <input type="number" name="age" id="number" placeholder="Enter your age" min="18" max="65" class="box">
         </div>
         <div class="group">
             <p> Which option best describes your current role? </p>
-            <select name="dropdown" id="dropdown">
+            <select name="dropdown" id="dropdown" class="box">
                 <option disabled value="">Select current rule</option>
                 <option value="Student">Student</option>
                 <option value="Full-job">Full job</option>
@@ -41,61 +41,51 @@
         </div>
         <div class="group">
             <p> Would you recommend freeCodeCamp to a friend?</p>
-            <input type="radio">
+
             <label for="Definetly">
-            Definetly
+                <input type="radio" class="input-radio" checked>Definetly
             </label>
-            <input type="radio">
+
             <label for="Maybe">
-            Maybe </label>
-            <input type="radio">
-            <label for="notsure"> Not sure</label>
+                <input type="radio" class="input-radio">Maybe </label>
+
+            <label for="notsure"> <input type="radio" class="input-radio">Not sure</label>
         </div>
         <div class="group">
-<<<<<<< HEAD
-            <p> What is your favorite feature of freeCodeCamp?</p>
-            <select name="dropdown" id="dropdown">
-                <option disabled value="">Select an option</option>
-                <option value="Student">Student</option>
-=======
             <p> What is your favorite feature of freeCodeCamp? </p>
-            <select name="dropdown" id="dropdown">
+            <select name="dropdown" id="dropdown" class="box">
                 <option disabled value="">Select current rule</option>
                 <option value="Student">C</option>
->>>>>>> 3643003cc92afaf76ee51f990ab43c2c120dd620
                 <option value="Full-job">Full job</option>
                 <option value="full-time-learner">full time learner</option>
                 <option value="">prefer not to say</option>
                 <option value="other">other</option>
             </select>
         </div>
-<<<<<<< HEAD
         <div class="group">
-            <p>What would you like to see improved? (Check all that apply)          </p>
+            <p>What would you like to see improved? (Check all that apply) </p>
             <label for="front-end">
-            <input type="checkbox" name="front-end" > Front-end</label>
+            <input type="checkbox" name="front-end" class="input-check"> Front-end</label>
             <label for="front-end">
-                <input type="checkbox" name="back-end projects" > back-end projects</label>
-                <label for="data-visualization">
-                    <input type="checkbox" name="data-visualization" >data visualization</label>
+                <input type="checkbox" name="back-end projects" class="input-check"> back-end projects</label>
+            <label for="data-visualization">
+                    <input type="checkbox" name="data-visualization" class="input-check"> data visualization</label>
             <label for="challenges">
-                <input type="checkbox" name="challenges" > challenges</label>
-                        <label for="open-source-community">
-                            <input type="checkbox" name="open-source-community" > open source community</label>
-                            <label for="front-end">
-                                <input type="checkbox" name="front-end" > gitter source community</label>
-                                <label for="front-end">
-                                    <input type="checkbox" name="front-end" > videos</label>
-                                    <label for="front-end">
-                                        <input type="checkbox" name="front-end" > city meet-ups </label>
-                                        <label for="front-end">
-                                            <input type="checkbox" name="front-end" > wiki</label>
-                                            <label for="front-end">
-                                                <input type="checkbox" name="front-end" > forum </label>
-                                                <label for="front-end">
-                                                    <input type="checkbox" name="front-end" > additional courses</label>
-=======
->>>>>>> 3643003cc92afaf76ee51f990ab43c2c120dd620
+                <input type="checkbox" name="challenges" class="input-check"> challenges</label>
+            <label for="open-source-community">
+                            <input type="checkbox" name="open-source-community" class="input-check"> open source community</label>
+            <label for="front-end">
+                                <input type="checkbox" name="front-end" class="input-check"> gitter source community</label>
+            <label for="front-end">
+                                    <input type="checkbox" name="front-end" class="input-check"> videos</label>
+            <label for="front-end">
+                                        <input type="checkbox" name="front-end" class="input-check"> city meet-ups </label>
+            <label for="front-end">
+                                            <input type="checkbox" name="front-end" class="input-check"> wiki</label>
+            <label for="front-end">
+                                                <input type="checkbox" name="front-end" class="input-check"> forum </label>
+            <label for="front-end">
+                                                    <input type="checkbox" name="front-end" class="input-check"> additional courses</label>
 
         </div>
         <div class="group">
